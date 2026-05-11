@@ -24,7 +24,9 @@ Este software se distribuye como un **binario ejecutable (.exe)** optimizado par
 ## **Catálogo e Inventario**
 ![Catálogo e Inventario](screenshots/catalogo.png)
 
+## **Instalar Firmas digitales**
 
+Basta simplemente con hacer doble click al archivo .bat llamado Instalar_Licencia.bat como administrador para que no desactives tu antivirus ni expongas tu equipo a malware
 ## **📁 Arquitectura de Archivos**
 
 Para garantizar la estabilidad del sistema y el renderizado de la interfaz, el ejecutable requiere mantener la siguiente estructura de directorios:
