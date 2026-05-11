@@ -14,24 +14,27 @@ Este software se distribuye como un **binario ejecutable (.exe)** optimizado par
 
 ## **📸 Preview del Sistema**
 
-| Vista Principal (Tema Claro) | Panel de Control (Tema Oscuro) |
-| :---- | :---- |
-|  |  |
+## **Vista Principal (Tema Claro)**
+ ![Dashboard Claro](screenshots/dashboard_light.png) 
+## **Panel de Control (Tema Oscuro)**
+ ![Dashboard Oscuro](screenshots/dashboard_dark.png) 
 
-| Registro de Movimientos | Catálogo e Inventario |
-| :---- | :---- |
-|  |  |
+## **Registro de Movimientos**
+![Registro de Movimientos](screenshots/registro.png)
+## **Catálogo e Inventario**
+![Catálogo e Inventario](screenshots/catalogo.png)
+
 
 ## **📁 Arquitectura de Archivos**
 
 Para garantizar la estabilidad del sistema y el renderizado de la interfaz, el ejecutable requiere mantener la siguiente estructura de directorios:
 
-LyraLedger/  
-├── LyraLedger.exe          \# Binario principal del sistema  
-├── screenshots/            \# Capturas de pantalla para documentación  
-└── lycodeLife/             \# Núcleo de recursos del software  
-    └── resources/          \# Activos gráficos críticos  
-        ├── logoclaro.png   \# Logo corporativo (Light Mode)  
+LyraLedger/    
+├── LyraLedger.exe          \# Binario principal del sistema    
+├── screenshots/            \# Capturas de pantalla para documentación    
+└── lycodeLife/             \# Núcleo de recursos del software    
+    └── resources/          \# Activos gráficos críticos    
+        ├── logoclaro.png   \# Logo corporativo (Light Mode)    
         └── logooscuro.png  \# Logo corporativo (Dark Mode)
 
 **Aviso Técnico:** No modifiques ni elimines la carpeta lycodeLife, ya que contiene los recursos necesarios para el motor gráfico de la aplicación.
